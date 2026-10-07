@@ -71,7 +71,7 @@ details p, details ol, details ul { margin: 8px 0 0; }
 ol, ul { padding-left: 22px; }
 footer { text-align: center; margin-top: 32px; }
 footer a { margin: 0 8px; }
-.stores { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+.stores { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; justify-content: center; margin-top: 8px; }
 .stores a, .stores .soon { display: flex; flex-direction: column; align-items: center; }
 .badge-apple { height: 50px; width: auto; display: block; }
 /* Google-Abzeichen hat eigenen transparenten Rand, deshalb größer */
