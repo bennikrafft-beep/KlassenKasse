@@ -71,6 +71,11 @@ details p, details ol, details ul { margin: 8px 0 0; }
 ol, ul { padding-left: 22px; }
 footer { text-align: center; margin-top: 32px; }
 footer a { margin: 0 8px; }
-.stores { display: flex; gap: 10px; flex-wrap: wrap; }
-.stores .store { margin-top: 0; }
-.store.soon { background: var(--sky); color: var(--muted); cursor: default; }
+.stores { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+.stores a, .stores .soon { display: flex; flex-direction: column; align-items: center; }
+.badge-apple { height: 50px; width: auto; display: block; }
+/* Google-Abzeichen hat eigenen transparenten Rand, deshalb größer */
+.badge-google { height: 74px; width: auto; display: block; margin: -12px 0; }
+.soon { position: relative; }
+.soon img { filter: grayscale(1); opacity: 0.45; }
+.soon small { color: var(--muted); font-size: 0.8rem; margin-top: 2px; }
