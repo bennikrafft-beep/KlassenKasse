@@ -71,3 +71,6 @@ details p, details ol, details ul { margin: 8px 0 0; }
 ol, ul { padding-left: 22px; }
 footer { text-align: center; margin-top: 32px; }
 footer a { margin: 0 8px; }
+.stores { display: flex; gap: 10px; flex-wrap: wrap; }
+.stores .store { margin-top: 0; }
+.store.soon { background: var(--sky); color: var(--muted); cursor: default; }
